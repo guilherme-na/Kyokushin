@@ -1,0 +1,118 @@
+@charset "UTF-8";
+/*Formtação Simples*/
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap");
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul, li, a, h1 {
+  text-decoration: none;
+  -webkit-text-decoration-style: none;
+          text-decoration-style: none;
+  list-style-type: none;
+  font-weight: bold 400;
+  font-size: 1.15em;
+  color: black;
+  font-family: 'Roboto Slab', serif;
+}
+
+/*Formação Finalizada*/
+/*Navigation Bar*/
+.header {
+  background-color: #f7f7f7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 15px;
+}
+
+.header .header--logo img {
+  height: 70px;
+}
+
+.header--menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 20px;
+}
+
+/*Navigation Bar Finalização*/
+/*Introdução Video*/
+.video--introdution iframe {
+  max-width: 1920px;
+  max-height: 1080px;
+  height: 100%;
+  width: 100%;
+}
+
+/*Fim Video*/
+.figure--horarios {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+/*Noticias */
+.section--text {
+  text-align: center;
+}
+
+.section--noticias {
+  background-color: #EEE;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 2em;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.figure--noticias {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.figure--noticias img {
+  width: 350px;
+  height: 200px;
+}
+
+.figure--noticias__1 {
+  border-radius: 30px;
+  width: 350px;
+  height: 450px;
+  background-color: white;
+  font-size: 0.80em;
+  padding: 0 25px;
+}
+
+/*Noticias finalizada*/
+.footer {
+  font-weight: bold;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */

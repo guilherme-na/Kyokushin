@@ -1,0 +1,112 @@
+/*Formtação Simples*/
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul,li,a,h1 {
+    text-decoration: none;
+    text-decoration-style: none;
+     list-style-type: none;
+     font-weight: bold 400;
+     font-size: 1.15em;
+     color: black;
+     font-family: 'Roboto Slab', serif;
+     
+}
+
+/*Formação Finalizada*/
+
+
+/*Navigation Bar*/
+.header {
+    background-color: #f7f7f7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    
+    .header--logo img {
+        height: 70px;
+        
+    }
+
+    
+}
+
+.header--menu {
+    display: flex;
+    padding: 0 20px;
+}
+
+/*Navigation Bar Finalização*/
+
+
+/*Introdução Video*/
+.video--introdution iframe {
+    max-width: 1920px;
+    max-height: 1080px;
+    height: 100%;
+    width: 100%;
+}
+
+/*Fim Video*/
+
+.figure--horarios {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+/*Noticias */
+
+.section--text {
+    text-align: center;
+}
+
+.section--noticias {
+    background-color: #EEE;
+    display: flex;
+    align-items: center;
+    font-size: 2em;
+    flex-direction: column;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    
+   
+
+}
+
+.figure--noticias {
+   display: flex;
+  
+}
+
+.figure--noticias img{
+    
+    width: 350px;
+    height: 200px;
+    
+}
+
+.figure--noticias__1 {
+    border-radius:30px;
+    width: 350px;
+    height: 450px;
+    background-color: white;
+    font-size: 0.80em;
+    padding: 0 25px;
+}
+
+/*Noticias finalizada*/
+
+.footer {
+    font-weight: bold;
+    text-align: center;
+}
